@@ -392,9 +392,46 @@ section{
 } 
 
 /*******************************************************************************\
-                                        HOME
+                                        REVIEW
 \*******************************************************************************/
 
+.review .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.review .box-container .box {
+    border: var(--border);
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.review .box-container .box p{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #CCC;
+    padding: 2rem 0;
+}
+
+.review .box-container .box .user {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .box-container .box .user h3 {
+    padding: 1rem 0;
+    font-size: 2rem;    
+    color: #FFF;
+}
+
+
+.review .box-container .box .stars i {
+    font-size: 1.6rem;
+    color: var(--main-color);
+}
 
 
 
@@ -405,7 +442,9 @@ section{
 
 
 
-
+/*******************************************************************************\
+                                        HOME
+\*******************************************************************************/
 
 
 /*******************************************************************************\
